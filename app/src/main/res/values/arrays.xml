@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="typelist">
+        <item>@string/t1</item>
+        <item>@string/t2</item>
+        <item>@string/t3</item>
+    </string-array>
+    <string-array name="LocationList">
+        <item>@string/Uttara</item>
+        <item>@string/Shahbag</item>
+        <item>@string/Motijheel</item>
+    </string-array>
+
+</resources>

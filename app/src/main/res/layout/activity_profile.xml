@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sky"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="380dp"
+        android:orientation="vertical"
+        android:layout_height="400dp"
+        android:weightSum="1">
+
+        <!--Put form controls here-->
+        <ImageView
+            android:layout_height="70dp"
+            android:id="@+id/image"
+            android:src="@drawable/ph_add_image"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent" />
+
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="8pt">
+        </TextView>
+
+        <TextView
+            android:id="@+id/Location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="08pt">
+        </TextView>
+        <TextView
+            android:id="@+id/Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="8pt">
+        </TextView>
+
+
+
+        <TextView
+            android:id="@+id/Contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="8pt">
+        </TextView>
+
+        <Button
+            android:text="Update Picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/update"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:elevation="0dp" />
+
+
+        <Button
+            android:text="Order Service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp" />
+        <Button
+            android:text="See History"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/seehistory"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp" />
+
+
+        <Button
+            android:text="Rate Technician"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/seeRate"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp" />
+        <Button
+            android:text="Notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/noti"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp" />
+        <Button
+            android:text="Log Out"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/logout"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

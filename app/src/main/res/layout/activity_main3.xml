@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="160pt"
+    android:layout_height="800pt"
+    android:background="@drawable/sky"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+
+        <!--Put form controls here-->
+
+        <TextView
+            android:id="@+id/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basic Information"
+            android:textSize="10pt">
+        </TextView>
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:layout_width="fill_parent">
+        </EditText>
+
+        <EditText
+            android:id = "@+id/editTextPassword"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:inputType = "textPassword"
+            android:hint="Password"/>
+        <EditText
+            android:id = "@+id/editTextConPassword"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:inputType = "textPassword"
+            android:hint="Confirm Password"/>
+
+
+        <EditText
+            android:id="@+id/editTextAddress"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:layout_width="fill_parent">
+        </EditText>
+        <Spinner
+            android:id="@+id/SpinnerLocation"
+            android:layout_height="wrap_content"
+
+            android:layout_width="212dp"
+            android:entries="@array/LocationList">
+        </Spinner>
+
+        <EditText
+            android:id="@+id/editTextContactNo"
+            android:layout_height="wrap_content"
+            android:hint="Contact No"
+            android:layout_width="fill_parent">
+        </EditText>
+
+        <CheckBox
+            android:id="@+id/CheckBoxResponse"
+            android:layout_height="wrap_content"
+            android:text="I am not a robot"
+            android:layout_width="fill_parent">
+        </CheckBox>
+
+
+
+        <Button
+            android:text="Create Account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonAdd"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="23dp" />
+
+    </LinearLayout>
+</ScrollView>
